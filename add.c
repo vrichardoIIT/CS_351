@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int add (int x, int y) {
 	return x + y; 
@@ -18,7 +18,7 @@ int main() {
 
 	sum = add(a, b);
 
-	printf(sum);
+	printf ("%d + %d = %d", a, b, sum);
 
 
 

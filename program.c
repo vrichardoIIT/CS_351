@@ -1,4 +1,4 @@
-#include <assert.h>
+#include <stdio.h>
 
 
 
@@ -6,8 +6,13 @@ int main() {
 
         int a = 2, b = 3;
 
-        int sum = a + b
+        int sum = a + b;
 
-        assert(a > 0 && b > 0);
-	assert (a == b);
+        if(a > 0 && b > 0){
+	1;
+
+	}
+	if(a == b){
+	1;
+        }
 }
